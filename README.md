@@ -9,13 +9,18 @@ Task Management Java
  ✅ JPA/Hibernate for One-to-Many relationship (A user can have multiple tasks)
  ✅ Gradle for dependency management
 
+--------------------------------------------------------------
+
+
 🛠 Entities & Relationships
 1️⃣ User (ID, Name, Email, Role [ADMIN, EMPLOYEE])
 One user can have multiple tasks
  2️⃣ Task (ID, Title, Description, Status, Assigned User)
 
-
 Each task is assigned to one user
+
+
+--------------------------------------------------------------
 
 
 
@@ -28,6 +33,9 @@ POST /auth/register → Register (Only Admin can register new users)
 
 
 
+--------------------------------------------------------------
+
+
 👤 User Management
 GET /users → Admin can view all users
 
@@ -36,6 +44,10 @@ GET /users/{id} → Get a user by ID
 
 
 DELETE /users/{id} → Admin can delete a user
+
+
+
+--------------------------------------------------------------
 
 
 ✅ Task Management
