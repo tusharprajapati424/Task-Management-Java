@@ -60,6 +60,12 @@ GET /tasks → View all tasks (Admin & Employee)
 GET /tasks/{id} → Get task details
 
 
+
+
+Postman collection
+https://java-dev-team-7360.postman.co/workspace/Java-dev-team-Workspace~88a8a197-dc6d-40d0-b760-0c344ea792c8/collection/3319294-8dc5bdaf-1731-4b81-bd48-b6f2bc0cc6cf?action=share&creator=3319294
+
+
 PUT /tasks/{id} → Update task (Assigned Employee can update their tasks)
 
 
